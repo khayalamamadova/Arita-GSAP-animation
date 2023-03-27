@@ -401,6 +401,7 @@ ul {
     right: 0;
     height: 100%;
     width: 33.5%;
+    opacity: 0;
 }
 .shapes-content {
     position: absolute;
@@ -446,7 +447,7 @@ ul {
     z-index: 10;
 }
 .slide-bg_inner-current {
-    opacity: 1;
+    transform: translateX(0);
     z-index: 11;
     pointer-events: auto;
   }

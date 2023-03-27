@@ -1,5 +1,5 @@
-shapes.forEach(el =>  el.style.backgroundColor = `${el.dataset.bg}` );
-bgItems.forEach(el =>  el.style.backgroundImage = `url('${el.dataset.bg}')` );
+shapes.forEach(el => { el.style.backgroundColor = `${el.dataset.bg}` });
+bgItems.forEach(el => { el.style.backgroundImage = `url('${el.dataset.bg}')` });
 
 const bgSlides = (direction) => {
   let itemClass = `slide-${slideCounter}`;

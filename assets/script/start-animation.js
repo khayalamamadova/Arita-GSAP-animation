@@ -22,6 +22,10 @@ const startAnimation = () => {
         y: 0,
 
     }, '-=0.4')
+    .to(bgShape, 0.6, {
+      opacity: 1,
+      delay: -0.6
+    },'-=0.2')
     .from(currentSlide, 0.4, {
         xPercent: 100,
     }, '-=0.4')

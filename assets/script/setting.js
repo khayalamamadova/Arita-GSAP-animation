@@ -7,6 +7,7 @@ const bgItems = document.querySelectorAll('.slide-bg_link'),
       slideBg = document.querySelector('.slide-bg'),
       links = document.querySelectorAll('a'),
       mainSection = document.querySelector('.main-section'),
+      bgShape = document.querySelector('.shapes'),
       slidesCount = 5;
 let slideCounter = 1;
 const easing = BezierEasing(0.770, 0.125, 0.265, 1.040);
